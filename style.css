@@ -15,11 +15,13 @@ body{
 .clock{
     width: 450px;
     height: 450px;
-    background: url(clock.png);
+/*  background: url(clock.png); */
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
+    border:5px dashed white;
+    border-radius: 50%;
 }
 
 .clock:before{
